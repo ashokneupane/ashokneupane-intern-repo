@@ -66,7 +66,7 @@ npm install
 #### **Create a `.env` File**
 1. Copy the example file:
    ```sh
-   cp .env.example .env
+   cp .env.sample .env
    ```
 2. Open `.env` and edit the following:
    ```ini
