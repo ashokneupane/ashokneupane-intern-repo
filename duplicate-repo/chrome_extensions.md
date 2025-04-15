@@ -10,4 +10,5 @@ To improve the performance, quality, and correctness of web apps and provide aud
 
 ## Lesson Learned
 These four are the chrome extension for making the job of developers easy and fast. <br>
+
 The **React Developer tools** and **Redux DevTools** helps me to understand what will happens "under the hood" in a React application. They will inspect components, monitor state changes which helps to understand how the data flows. **Lighthouse** introduced me to understand various performance metrics and guide me to improve the performance of the web application.
