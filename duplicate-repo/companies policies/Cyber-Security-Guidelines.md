@@ -31,3 +31,6 @@
 3. Run a malware/virus scan on my devices.
 4. Review recent activity on the account to see what was accessed.
 
+## New Cybersecurity habit at Focus Bear
+I will make it a daily habit to lock my computer screen every time I step away from my desk, even if it's just for a moment.
+
