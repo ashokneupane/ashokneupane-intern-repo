@@ -47,3 +47,13 @@
 ### What happens if two people edit the same file on different branches?
 **Merge conflict:** if two people work on same file at different branch, it will create the conflict in between their code while merging their work and can be resolved manually. And we can write the new committed message for merge conflict resolution.
 
+## Merge Conflicts & Conflict Resolution
+
+### What caused the conflict?
+I created a new branch called `feature-branch` and made some changes on it. After that, I staged and committed the changes on `feature-branch`. Then, I switched to the `main` branch and made changes to the same file that I had modified in `feature-branch`. I staged and committed those changes as well. Finally, while on the `main` branch, I pulled the changes from `feature-branch` into `main`, which resulted in a merge conflict.
+
+### How do you resolve it?
+After the conflict occurred, I reviewed the changes from both the `main` and `feature-branch`. In that case, the VS Code editor presented several options like Accept Current Change, Accept Incoming Change, Accept Both Changes, and Compare Changes. I chose the Accept Both Changes option, then staged and committed the resolved merge conflict.
+
+### What do your learn?
+From this task, I learned how a merge conflict occurs and how it can be resolved. Additionally, I became familiar with various Git commands that can be used for conflict resolution.
