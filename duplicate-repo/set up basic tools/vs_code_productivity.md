@@ -21,7 +21,7 @@ These shortcuts reduce the time by allowing the users to perform the common task
 **Please find the available screenshot**
 
 **Ctrl + P**
-![ctrl+P](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/ctrl%2BP.png)
+![ctrl+P](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/vs_code_productivity/ctrl%2BP.png)
 
 **Ctrl + D**
 ![ctrl+D](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/vs_code_productivity/ctrl%2BD.png)
