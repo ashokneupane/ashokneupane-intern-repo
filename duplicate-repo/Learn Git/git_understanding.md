@@ -57,3 +57,27 @@ After the conflict occurred, I reviewed the changes from both the `main` and `fe
 
 ### What do your learn?
 From this task, I learned how a merge conflict occurs and how it can be resolved. Additionally, I became familiar with various Git commands that can be used for conflict resolution.
+
+
+## Advanced Git Commands & When to Use Them
+
+### What does each command do?
+
+| Command      | Description |
+| ----------- | ----------- |
+| `git checkout main -- <file>`      | restore a specific file from the `main` branch into your current working branch, without affecting any other files or change       |
+| `git cherry-pick <commit>`   | apply a single commit from another branch to your current branch        |
+| `git log`   | view the project's commit history        |
+| `git blame <file>`   | show you last modified the particular line of file and when        |
+
+### When would you use it in a real project (hint: these are all really important in long running projects with multiple developers)? 
+
+| Command      | Usage |
+| ----------- | ----------- |
+| `git checkout main -- <file>`      | When you accidentally changed a file (e.g., config.json) and now want a fresh copy of the file from main without affecting your other work      |
+| `git cherry-pick <commit>`   | When you want to apply a specific bug fix from one branch to another      |
+| `git log`   | you are starting your workday and want to see what changes were recently made to the project        |
+| `git blame <file>`   | you're investigating a bug in config.js and wants to know who last modified the line that's causing issues       |
+
+### What surprised you while testing these commands?
+I was suprised that how easily we can solve our real world scenario using git while working in long running projects with multiple developers.
