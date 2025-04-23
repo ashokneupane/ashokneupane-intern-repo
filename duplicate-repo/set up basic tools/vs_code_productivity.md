@@ -17,3 +17,18 @@ Most useful shortcuts are
 **Ctrl + \\** 
 
 These shortcuts reduce the time by allowing the users to perform the common tasks **with fewer mouse clicks as they bypass the need to navigate the menus**. 
+
+**Please find the available screenshot**
+
+**Ctrl + P**
+![ctrl+P](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/ctrl+P.png)
+
+**Ctrl + D**
+![ctrl+D](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/ctrl+D.png)
+
+**Ctrl + \\**
+![ctrl+\\](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/splitting-editor.png)
+
+
+
+
