@@ -1,3 +1,6 @@
 .history
 node_modules
-.env
+duplicate-repo/.env
+duplicate-repo/node_modules/*
+
+
