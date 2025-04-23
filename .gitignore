@@ -2,5 +2,3 @@
 node_modules
 duplicate-repo/.env
 duplicate-repo/node_modules/*
-
-
