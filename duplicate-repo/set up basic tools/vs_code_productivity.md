@@ -21,13 +21,13 @@ These shortcuts reduce the time by allowing the users to perform the common task
 **Please find the available screenshot**
 
 **Ctrl + P**
-![ctrl+P](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/ctrl+P.png)
+![ctrl+P](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/ctrl%2BP.png)
 
 **Ctrl + D**
-![ctrl+D](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/ctrl+D.png)
+![ctrl+D](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/vs_code_productivity/ctrl%2BD.png)
 
 **Ctrl + \\**
-![ctrl+\\](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/splitting-editor.png)
+![ctrl+\\](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/vs_code_productivity/splitting-editor.png)
 
 
 
