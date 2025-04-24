@@ -29,6 +29,7 @@
 
 **Note**: As mentioned on the issue description, `git reset HEAD <file>` is not working on new version of git. This code has been replaced by `git reset <file>`.
 
+
 ## Branching and Team Collaboration
 
 ### Why is pushing directly to main problematic?
@@ -81,3 +82,44 @@ From this task, I learned how a merge conflict occurs and how it can be resolved
 
 ### What surprised you while testing these commands?
 I was suprised that how easily we can solve our real world scenario using git while working in long running projects with multiple developers.
+
+
+**Some screenshot related to git:**<br>
+
+**git status**
+![git status](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_status.png)
+
+**git add**
+![git add](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_add.png)
+
+**git commit**
+![git commit](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_commit.png)
+
+**merge conflict**
+![merge conflict](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/merge_conflict.png)
+
+**merge editor**
+![merge editor](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/merge_editor.png)
+
+**merge conflict resolution**
+![merge conflict resolution](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/merge_resolution.png)
+
+**git log**
+![git log](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_log.png)
+
+**git branch**
+![git branch](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_branch.png)
+
+**switching branch**
+![switching branch](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/switching_branch.png)
+
+**git checkout main --<file>**
+![git checkout main -- <file>](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_checkout_main.png)
+**note:** index.html file is restored from main branch through testing branch
+
+**git cherry-pick <commit>**
+![git cherry-pick <commit>](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_cherry_pick.png)
+**note:** 8c7ebe8178726f2a06d80a96dd64012a60f8c5b9 is pull on testing branch from main branch 
+
+**git blame <file>**
+![git blame <file>](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_blame.png)
