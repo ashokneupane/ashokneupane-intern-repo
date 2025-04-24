@@ -18,3 +18,15 @@ As i have used ChatGPT from long time especially for getting ideas, generating a
 2. Document the code, which make the development work fast.
 3. Help to understand the difficult code
 4. Help to debug the code.
+
+## Code generation using chatgpt
+![Code generation using chatgpt](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/ai_tools/code_generation_chatgpt.png)
+<br>
+
+## Debugging a simple coding problem
+![Code debugging using chatgpt](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/ai_tools/code_debugging_chatgpt.png)
+<br>
+
+## Explaining Programming concept
+![Explaining Programming concept using chatgpt](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/ai_tools/explaining_programming_concept_chatgpt.png)
+
