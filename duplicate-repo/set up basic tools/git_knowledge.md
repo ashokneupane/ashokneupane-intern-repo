@@ -16,3 +16,8 @@ I prefer to use the Git in VS Code as we don't need to switch between two window
 
 The interesting thing about git is that i like the hard reset command, which i have been used today.<br>
 `git reset --hard <SOME-COMMIT>`
+
+**Please find the available screenshot**
+
+**Evidence of git installed**
+![Evidence of git installed](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_version.png)
