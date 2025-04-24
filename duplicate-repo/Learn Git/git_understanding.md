@@ -113,13 +113,13 @@ I was suprised that how easily we can solve our real world scenario using git wh
 **switching branch**
 ![switching branch](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/switching_branch.png)
 
-**git checkout main --<file>**
+**git checkout main --`<file>`**
 ![git checkout main -- <file>](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_checkout_main.png)
 **note:** index.html file is restored from main branch through testing branch
 
-**git cherry-pick <commit>**
+**git cherry-pick `<commit>`**
 ![git cherry-pick <commit>](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_cherry_pick.png)
 **note:** 8c7ebe8178726f2a06d80a96dd64012a60f8c5b9 is pull on testing branch from main branch 
 
-**git blame <file>**
+**git blame `<file>`**
 ![git blame <file>](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_blame.png)
