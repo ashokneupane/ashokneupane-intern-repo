@@ -30,8 +30,8 @@ One change I can make to improve team collaboration is to **communicate more pro
 
 ## Proof of attending Agile Ceremonies
 
-### Daily Stand-ups
-![Daily Standup Meeting](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/working_in_agile_team/daily_standup_meeting.png)
+### Daily Stand-ups meeting invite
+![Daily stand-ups meeting invite](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/working_in_agile_team/meeting_invite.png)
 
 ### Retrospectives
 #### Retrospective Session
