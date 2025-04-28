@@ -23,4 +23,15 @@
 ### Document one best practice you will follow when using AI tools at Focus Bear.
 I will never enter any personal, client, or sensative data into the AI tools.
 
+## Proof of work
+I used ChatGPT on 28 April 2025 in order to get an ideas that how can i solve a particular issue of my github repo.
+
+Today, I utilized ChatGPT to structure my answer using a template provided by the AI, as shown in the screenshot below:
+
+![ChatGPT Prompt](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/companies_policies/chatgpt_prompt.png)<br>
+
+From the above screenshot, I didn't use all the concepts or ideas from ChatGPT's response; I primarily adopted the template it provided. Sometimes, it's necessary to make slight adjustments to the AI's suggestions. The accuracy of ChatGPT's responses depends on the user's prompt and the context provided.
+
+Therefore, I believe one shouldn't blindly trust ChatGPT's responses. While it's a useful tool, it's essential to approach its outputs cautiously and always proofread before accepting its suggestions.
+
 
