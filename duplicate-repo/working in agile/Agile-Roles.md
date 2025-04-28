@@ -21,3 +21,6 @@ As a developer, my work overlap or interact with other roles in the team by:<br>
 
 ## Collobrate frequently with QA/Tester
 I frequently collaborate with the QA/Tester to ensure the delivery of a high-quality project. I write clean, testable code—implementing both unit and feature testing—to make their testing process smoother and more efficient. The QA team then tests the application and identifies any bugs or issues. Once they report the findings, I work closely with them to resolve the problems promptly, contributing to a stable and error-free final product.
+
+## Proof of Agile-Roles.md is created on my local machine
+![Proof of Agile-roles.md is created](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/working_in_agile_team/proof_of_agiles_roles.png)
