@@ -144,22 +144,22 @@ You would use `git bisect` when you know the project was functioning correctly a
 
 
 ### Real world scenario for git bisect
-As I needed to track down which commit introduced a bug—a typo in the .gitignore file (READMEmd instead of README.md)—I used git bisect.
+As I needed to track down which commit introduced a bug—a typo in the .gitignore file (READMEmd instead of README.md)—I used git bisect.<br>
 **git bisect start**
 ![git bisect start](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_bisect_start.png)
 <br>
 
-And then i set the current HEAD to the bad state and i put my first commit to the good state. In between those two state, i need to track the bad commit causing the issue.
+And then i set the current HEAD to the bad state and i put my first commit to the good state. In between those two state, i need to track the bad commit causing the issue.<br>
 **git bisect good**
 ![git bisect good](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_bisect_good.png)
 <br>
 
-As the process of finding bad commit is going using the two different command `git bisect bad` and `git bisect good` and finally found the commit causing the type error issue. The issue is putting the typo error READMEmd instead of README.md
+As the process of finding bad commit is going using the two different command `git bisect bad` and `git bisect good` and finally found the commit causing the type error issue. The issue is putting the typo error READMEmd instead of README.md<br>
 **git bisect bad**
 ![git bisect bad](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_bisect_bad.png)
 <br>
 
-After finding bad commit, the HEAD is reset to the current/present commit.
+After finding bad commit, the HEAD is reset to the current/present commit.<br>
 **git bisect reset**
 ![git bisect reset](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_bisect_reset.png)
 <br>
