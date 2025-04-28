@@ -19,3 +19,23 @@ Kanban board is a visual tool that helps to manage the task and track the work t
 5. Reviewing regularly to reflect on what’s working and improve continuously.
 
 
+## Please find the below screenshot of kanban board
+
+### Viewing Kanban board
+![Kanban Board](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/working_in_agile_team/kanban_workflow.png)
+
+As per the above image, we have 5 steps/status:
+1. **Backlog:** A collection of tasks that have not yet been started but are identified for future work.
+2. **Ready:** Tasks that are prepared and prioritized, ready to be picked up for implementation.
+3. **In progress:** Tasks currently being actively worked on by the team.
+4. **In review:** Tasks that have been completed and are undergoing review and testing before finalization.
+5. **Done:** Tasks that have passed all reviews and tests, and are considered complete.
+
+### Moving a task
+Please find the video link:
+https://www.loom.com/share/403c6660a781411494031e3cfdaef1fe
+
+**Note:** I moved the task named 'Agile Ceremonies and Team Collaboration' from Ready column to In Progress column.
+
+
+
