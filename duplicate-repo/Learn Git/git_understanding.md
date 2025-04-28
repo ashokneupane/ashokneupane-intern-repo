@@ -123,3 +123,44 @@ I was suprised that how easily we can solve our real world scenario using git wh
 
 **git blame `<file>`**
 ![git blame <file>](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_blame.png)
+
+
+
+## git bisect
+
+### What does git bisect do?
+Git bisect is used to detect the bad commit that causes the issue. <br>
+It works based on the binary search principle: first, it asks us to mark the bad commit (where the bug exists) and the good commit (where there is no bug). Between those commits, it finds the middle commit where the bug was introduced using the binary search strategy.
+
+### When would you use it in a real-world debugging situation?
+You would use `git bisect` when you know the project was functioning correctly at an earlier point but has since developed a problem, and you need to identify which commit introduced the issue. It is especially helpful when there are a large number of commits, making manual review too time-consuming or impractical.
+
+### How does it compare to manually reviewing commits?
+| git bisect    | Manual reviewing |
+| -------- | ------- |
+| It is faster as it used the principle of binary search(log2n)  | It is slower as the commit need to be checked one by one (linear search)    |
+| It is automated process, user have little effort | It is not automatic process as user requires manual examination of each commit     |
+| It is suitable where there is large number of commit or large project   | It is suitable where there is small number of commit or small project    |
+
+
+### Real world scenario for git bisect
+As I needed to track down which commit introduced a bug—a typo in the .gitignore file (READMEmd instead of README.md)—I used git bisect.
+**git bisect start**
+![git bisect start](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_bisect_start.png)
+<br>
+
+And then i set the current HEAD to the bad state and i put my first commit to the good state. In between those two state, i need to track the bad commit causing the issue.
+**git bisect good**
+![git bisect good](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_bisect_good.png)
+<br>
+
+As the process of finding bad commit is going using the two different command `git bisect bad` and `git bisect good` and finally found the commit causing the type error issue. The issue is putting the typo error READMEmd instead of README.md
+**git bisect bad**
+![git bisect bad](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_bisect_bad.png)
+<br>
+
+After finding bad commit, the HEAD is reset to the current/present commit.
+**git bisect reset**
+![git bisect reset](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_bisect_reset.png)
+<br>
+
