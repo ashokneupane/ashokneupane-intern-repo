@@ -27,3 +27,17 @@ I believe **Daily Stand-ups** are the most important for me, as they give me the
 
 ## Change to make team collaboration
 One change I can make to improve team collaboration is to **communicate more proactively and clearly** by regularly updating task status, asking for feedback early, and sharing any blockers as soon as they arise. This will help the team stay aligned, reduce delays, and encourage open collaboration.
+
+## Proof of attending Agile Ceremonies
+
+### Daily Stand-ups
+![Daily Standup Meeting](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/working_in_agile_team/daily_standup_meeting.png)
+
+### Retrospectives
+#### Retrospective Session
+![Retrospective Session](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/working_in_agile_team/retrospective_session.png)
+
+#### Retrospective Session in Discord
+![Retrospective Session in Discord](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/working_in_agile_team/discord_retrospective_session.png)
+
+
