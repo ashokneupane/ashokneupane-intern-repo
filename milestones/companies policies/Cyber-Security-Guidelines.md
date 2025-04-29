@@ -34,3 +34,16 @@
 ## New Cybersecurity habit at Focus Bear
 I will make it a daily habit to lock my computer screen every time I step away from my desk, even if it's just for a moment.
 
+## Lock Screen Settings
+![Lock Screen Settings](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/companies_policies/lock_screen_setting.png)
+
+## Google Password Manager
+![Google Password Manager](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/companies_policies/google_password_manager.png)
+
+## Two factor authentication
+### First authentication using email Address and password
+![First authentication Method](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/companies_policies/first_authentication_method.png)
+
+### second authentication using verifying mobile number
+![Second authentication Method](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/companies_policies/second_authentication_method.png)
+
