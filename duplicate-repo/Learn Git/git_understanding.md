@@ -204,5 +204,11 @@ Detailed:
 3. Introduced further bugs and create ambiguity.
 4. Developers can spend extra time trying to figure out what a commmit is doing.
 
+### Vague Commit
+![Vague Commit](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/vague_commit.png)
 
+### Overly Detailed Commit
+![Overly Detailed Commit](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/overly_detailed_commit.png)
 
+### Well Structured Commit
+![Well Structured Commit](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/well_structured.png)
