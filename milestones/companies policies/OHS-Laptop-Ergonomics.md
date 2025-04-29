@@ -17,4 +17,4 @@
 I will commit to use the ergonomic chair in order to maintain good posture and support lower back.
 
 ## View of my workplace with ergonomic chair
-![Workplace ergonomic chair](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/companies_policies/my_workplace.jpg)
+![Workplace ergonomic chair](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/companies_policies/my_workplace.jpg)

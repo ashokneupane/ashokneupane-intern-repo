@@ -31,13 +31,13 @@ One change I can make to improve team collaboration is to **communicate more pro
 ## Proof of attending Agile Ceremonies
 
 ### Daily Stand-ups meeting invite
-![Daily stand-ups meeting invite](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/working_in_agile_team/meeting_invite.png)
+![Daily stand-ups meeting invite](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/working_in_agile_team/meeting_invite.png)
 
 ### Retrospectives
 #### Retrospective Session
-![Retrospective Session](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/working_in_agile_team/retrospective_session.png)
+![Retrospective Session](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/working_in_agile_team/retrospective_session.png)
 
 #### Retrospective Session in Discord
-![Retrospective Session in Discord](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/working_in_agile_team/discord_retrospective_session.png)
+![Retrospective Session in Discord](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/working_in_agile_team/discord_retrospective_session.png)
 
 

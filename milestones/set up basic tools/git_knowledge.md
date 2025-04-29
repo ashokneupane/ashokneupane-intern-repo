@@ -20,4 +20,4 @@ The interesting thing about git is that i like the hard reset command, which i h
 **Please find the available screenshot**
 
 **Evidence of git installed**
-![Evidence of git installed](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_version.png)
+![Evidence of git installed](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/git_version.png)

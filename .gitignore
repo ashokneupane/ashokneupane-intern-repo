@@ -1,4 +1,4 @@
 .history
 node_modules
-duplicate-repo/.env
-duplicate-repo/node_modules/*
+milestones/.env
+milestones/node_modules/*

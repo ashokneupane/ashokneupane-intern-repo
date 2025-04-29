@@ -87,42 +87,42 @@ I was suprised that how easily we can solve our real world scenario using git wh
 **Some screenshot related to git:**<br>
 
 **git status**
-![git status](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_status.png)
+![git status](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/git_status.png)
 
 **git add**
-![git add](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_add.png)
+![git add](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/git_add.png)
 
 **git commit**
-![git commit](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_commit.png)
+![git commit](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/git_commit.png)
 
 **merge conflict**
-![merge conflict](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/merge_conflict.png)
+![merge conflict](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/merge_conflict.png)
 
 **merge editor**
-![merge editor](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/merge_editor.png)
+![merge editor](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/merge_editor.png)
 
 **merge conflict resolution**
-![merge conflict resolution](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/merge_resolution.png)
+![merge conflict resolution](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/merge_resolution.png)
 
 **git log**
-![git log](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_log.png)
+![git log](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/git_log.png)
 
 **git branch**
-![git branch](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_branch.png)
+![git branch](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/git_branch.png)
 
 **switching branch**
-![switching branch](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/switching_branch.png)
+![switching branch](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/switching_branch.png)
 
 **git checkout main --`<file>`**
-![git checkout main -- <file>](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_checkout_main.png)
+![git checkout main -- <file>](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/git_checkout_main.png)
 **note:** index.html file is restored from main branch through testing branch
 
 **git cherry-pick `<commit>`**
-![git cherry-pick <commit>](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_cherry_pick.png)
+![git cherry-pick <commit>](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/git_cherry_pick.png)
 **note:** 8c7ebe8178726f2a06d80a96dd64012a60f8c5b9 is pull on testing branch from main branch 
 
 **git blame `<file>`**
-![git blame <file>](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_blame.png)
+![git blame <file>](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/git_blame.png)
 
 
 
@@ -146,22 +146,22 @@ You would use `git bisect` when you know the project was functioning correctly a
 ### Real world scenario for git bisect
 As I needed to track down which commit introduced a bug—a typo in the .gitignore file (READMEmd instead of README.md)—I used git bisect.<br>
 **git bisect start**
-![git bisect start](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_bisect_start.png)
+![git bisect start](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/git_bisect_start.png)
 <br>
 
 And then i set the current HEAD to the bad state and i put my first commit to the good state. In between those two state, i need to track the bad commit causing the issue.<br>
 **git bisect good**
-![git bisect good](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_bisect_good.png)
+![git bisect good](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/git_bisect_good.png)
 <br>
 
 As the process of finding bad commit is going using the two different command `git bisect bad` and `git bisect good` and finally found the commit causing the type error issue. The issue is putting the typo error READMEmd instead of README.md<br>
 **git bisect bad**
-![git bisect bad](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_bisect_bad.png)
+![git bisect bad](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/git_bisect_bad.png)
 <br>
 
 After finding bad commit, the HEAD is reset to the current/present commit.<br>
 **git bisect reset**
-![git bisect reset](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_bisect_reset.png)
+![git bisect reset](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/git_bisect_reset.png)
 <br>
 
 
@@ -205,10 +205,10 @@ Detailed:
 4. Developers can spend extra time trying to figure out what a commmit is doing.
 
 ### Vague Commit
-![Vague Commit](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/vague_commit.png)
+![Vague Commit](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/vague_commit.png)
 
 ### Overly Detailed Commit
-![Overly Detailed Commit](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/overly_detailed_commit.png)
+![Overly Detailed Commit](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/overly_detailed_commit.png)
 
 ### Well Structured Commit
-![Well Structured Commit](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/well_structured.png)
+![Well Structured Commit](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/well_structured.png)

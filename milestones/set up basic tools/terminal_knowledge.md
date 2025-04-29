@@ -4,7 +4,7 @@ I will be using Window Powershell.<br>
 
 I have installed posh-git which integrates Git and PowerShell and provides tab completion support for common git commands, branches names, paths, and more. It will also displayed the remote branch names in the PowerShell window. Besides this, it displayed the number of changed file, modified file and deleted file if any. It make the developer life easier.
 
-![posh-git-image](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/posh-git-image.png)
+![posh-git-image](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/posh-git-image.png)
 
 ## Lesson Learned
 Setting Alias is the key things that i have learned

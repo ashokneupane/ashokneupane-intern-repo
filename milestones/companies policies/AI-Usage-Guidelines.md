@@ -28,7 +28,7 @@ I used ChatGPT on 28 April 2025 in order to get an ideas that how can i solve a 
 
 Today, I utilized ChatGPT to structure my answer using a template provided by the AI, as shown in the screenshot below:
 
-![ChatGPT Prompt](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/companies_policies/chatgpt_prompt.png)<br>
+![ChatGPT Prompt](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/companies_policies/chatgpt_prompt.png)<br>
 
 From the above screenshot, I didn't use all the concepts or ideas from ChatGPT's response; I primarily adopted the template it provided. Sometimes, it's necessary to make slight adjustments to the AI's suggestions. The accuracy of ChatGPT's responses depends on the user's prompt and the context provided.
 

@@ -1,8 +1,8 @@
 {
-  "name": "duplicate-repo",
+  "name": "milestones",
   "version": "1.0.0",
   "description": "",
-  "main": "duplicate-repo.js",
+  "main": "milestones.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

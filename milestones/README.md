@@ -53,9 +53,9 @@ Download the source repository to your local machine:
 
 ### **4️⃣ Run the Script to Duplicate Issues, Labels, and Milestones**
 
-#### **Go to the `duplicate-repo` Folder**
+#### **Go to the `milestones` Folder**
 ```sh
-cd duplicate-repo
+cd milestones
 ```
 
 #### **Install Dependencies**
@@ -79,7 +79,7 @@ npm install
 
 #### **Run the Script**
 ```sh
-node duplicate-repo.js
+node milestones.js
 ```
 This will **copy all issues, labels, and milestones** into your new repository.
 

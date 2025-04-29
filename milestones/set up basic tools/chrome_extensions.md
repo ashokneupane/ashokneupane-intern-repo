@@ -15,16 +15,16 @@ The **React Developer tools** and **Redux DevTools** helps me to understand what
 
 **Screenshot of installed Chrome extension**
 **React Developer tools**
-![React Developer Tools](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/chrome_extension/react_developer_tools.png)
-![Components](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/chrome_extension/viewing_component.png)
+![React Developer Tools](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/chrome_extension/react_developer_tools.png)
+![Components](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/chrome_extension/viewing_component.png)
 **Redux DevTools**
-![Redux DevTools](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/chrome_extension/redux_devtools.png)
-![Redux DevTools Usage](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/chrome_extension/redux_developer_tools_usage.png)
+![Redux DevTools](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/chrome_extension/redux_devtools.png)
+![Redux DevTools Usage](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/chrome_extension/redux_developer_tools_usage.png)
 **A Json Viewer**
-![A Json Viewer](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/chrome_extension/json_viewer.png)
-![A Json Viewer Parse](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/chrome_extension/json_viewer_parse.png)
+![A Json Viewer](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/chrome_extension/json_viewer.png)
+![A Json Viewer Parse](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/chrome_extension/json_viewer_parse.png)
 **Lighthouse**
-![Lighthouse](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/chrome_extension/lighthouse.png)
-![Lighthouse Report](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/chrome_extension/lighthouse_report.png)
+![Lighthouse](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/chrome_extension/lighthouse.png)
+![Lighthouse Report](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/chrome_extension/lighthouse_report.png)
 
 

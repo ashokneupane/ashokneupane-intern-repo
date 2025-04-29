@@ -22,7 +22,7 @@ Kanban board is a visual tool that helps to manage the task and track the work t
 ## Please find the below screenshot of kanban board
 
 ### Viewing Kanban board
-![Kanban Board](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/working_in_agile_team/kanban_workflow.png)
+![Kanban Board](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/working_in_agile_team/kanban_workflow.png)
 
 As per the above image, we have 5 steps/status:
 1. **Backlog:** A collection of tasks that have not yet been started but are identified for future work.

@@ -6,7 +6,7 @@ Welcome to your first task as a Focus Bear intern! This repository is designed t
 
 ## Step 1: Duplicate this repository (including the issues)
 
-Head on over to duplicate-repo/README.md for that process
+Head on over to milestones/README.md for that process
 
 ## Step 2: Work through the issues in your repo
 

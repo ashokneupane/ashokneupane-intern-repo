@@ -17,7 +17,7 @@ Currently, deactivating or pausing the app requires going through multiple steps
 **Why It's Unclear:** new users may find confusing<br>
 **Suggestion:** There should be the option for at what time you start your work.<br>
 
-![edit_habits_timing](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/trying_out_focus_bear/edit_habits_timing.png) <br><br>
+![edit_habits_timing](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/trying_out_focus_bear/edit_habits_timing.png) <br><br>
 
 ### Screenshot #2
 **Area:** All UI screens of the Focus Bear desktop app<br>
@@ -26,7 +26,7 @@ Currently, deactivating or pausing the app requires going through multiple steps
 **Why It's Unclear:** New users may find this behavior frustrating or annoying because it is not consistent with typical desktop app behavior.<br>
 **Suggestion:** The app should automatically minimize to the taskbar when clicking outside the window, switching to another app, or using Alt+Tab.<br>
 
-![minimizing_app](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/trying_out_focus_bear/minimizing_app.png) <br><br>
+![minimizing_app](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/trying_out_focus_bear/minimizing_app.png) <br><br>
 
 ### Screenshot #3
 **Area:** While using the app on desktop<br>
@@ -35,14 +35,14 @@ Currently, deactivating or pausing the app requires going through multiple steps
 **Why It's Unclear:** Users may find it confusing and frustrating to be constantly interrupted, which negatively impacts productivity.<br>
 **Suggestion:** Implement a strategy to minimize the number of pop-ups during focus sessions, allowing users to work with fewer distractions.<br>
 
-![popup](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/trying_out_focus_bear/popup.png) <br><br>
+![popup](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/trying_out_focus_bear/popup.png) <br><br>
 
 ### Screenshot #4
 **Area:** Onboarding Experience<br>
 **Problem:** New users may find the app overwhelming due to numerous features and the absence of a guided introduction.<br>
 **Suggestion:** Implement a beginner-friendly onboarding tour to help users understand key functionalities and navigate the app more effectively.<br>
 
-![tour_guide](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/trying_out_focus_bear/tour_guide.png) <br><br>
+![tour_guide](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/trying_out_focus_bear/tour_guide.png) <br><br>
 
 ### Screenshot #5
 **Area:** Habits tab on the Focus Bear mobile app.<br>
@@ -51,7 +51,7 @@ Currently, deactivating or pausing the app requires going through multiple steps
 **Why It's Unclear:** After initiating a focus mode, it took approximately five minutes to locate the option to stop blocking distractions, leading to confusion.<br>
 **Suggestion:** Enhance the visibility of the "Stop Blocking Distractions" button by placing it in a more prominent location or adding clear labels to guide users​.<br>
 
-![stop_blocking_distraction](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/trying_out_focus_bear/stop_blocking_distraction.png) <br><br>
+![stop_blocking_distraction](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/trying_out_focus_bear/stop_blocking_distraction.png) <br><br>
 
 
 
