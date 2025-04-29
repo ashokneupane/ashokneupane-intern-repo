@@ -164,3 +164,45 @@ After finding bad commit, the HEAD is reset to the current/present commit.<br>
 ![git bisect reset](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/git/git_bisect_reset.png)
 <br>
 
+
+## Writing Meaningful Commit Messages
+
+#### What makes a good commit message?
+
+1. Use the imperative verb form — for example, instead of writing "fixed bug," write "Fix bug."
+
+2. Keep the title short (less than 50 characters) and the description optional, with each line no longer than 72 characters.
+
+3. Explain what change was made and why it was made.
+   Example: Update Electron version to enable faster speeds.
+
+4. If possible, reference an issue or ticket.
+   Example: Fix bug #123
+
+5. Avoid unnecessary capitalization.
+
+6. Double-check your spelling.
+
+7. Specify the type and scope of the commit (optional but recommended).
+   Use types like feat (new feature), fix (bug fix), docs (documentation), style (code style changes), test, and so on.
+
+Basic:
+`git commit -m <message>`
+
+Detailed:
+`git commit -m <message> -m <description>`
+
+### How does a clear commit message help in team collaboration?
+1. Help in enhancing communication where it allows team members to understand the purpose and scope of the committed task, without delivering into code.
+2. By going through the commit, it helps to make quickly and effectively code review.
+3. Help developer by tracking the bug and issue introduced in the project quickly.
+4. Provide a great learning resources for the new and junior developers.
+
+### How can poor commit messages cause issues later?
+1. Difficult to track the issue and bug.
+2. Difficult for code review by not understanding why the chanage was made because of the vague commit.
+3. Introduced further bugs and create ambiguity.
+4. Developers can spend extra time trying to figure out what a commmit is doing.
+
+
+
