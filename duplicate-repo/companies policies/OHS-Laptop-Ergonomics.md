@@ -16,5 +16,5 @@
 ## One workplace change or habit adjustment you made.
 I will commit to use the ergonomic chair in order to maintain good posture and support lower back.
 
-## view of my workplace with ergonomic chair
-![Workplace ergonomic chair](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/companies_policies/my_workplace.png)
+## View of my workplace with ergonomic chair
+![Workplace ergonomic chair](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/duplicate-repo/images/companies_policies/my_workplace.jpg)
