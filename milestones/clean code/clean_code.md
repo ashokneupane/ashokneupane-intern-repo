@@ -206,3 +206,96 @@ The `display` function is responsible for printing the results to the console. <
 Each function have its own responsibility, which aligns with the Single Responsibility Principle—one of the five SOLID principles of object-oriented design.
 
 ---
+
+## Commenting & Documentation
+
+### When should you add comments?
+1. To explain why certain code is written.
+2. To make complex logic easier to understand.
+3. To give helpful information for other developers in the future.
+4. To follow the flow and structure of the code more easily.
+5. To turn off parts of the code during debugging to find and fix errors.
+
+---
+
+### When should you avoid comments and instead improve the code?
+1. When the code is simple and easily understood (e.g., no comment is needed for a = a + 2). 
+2. When comments become outdated or misleading. 
+3. Don’t write comments explaining what the code is already doing; it’s already clear in the code itself.
+4. When the comment doesn’t provide any useful information or isn’t needed for understanding.
+
+---
+
+The poorly documentated code:
+
+```
+//add
+function add(num1, num2) {
+  const sum = num1 + num2;
+  return sum;
+}
+
+//multiply
+function multiply(num1, num2) {
+  // do math
+  const result = num1 + num2;
+  return result;
+}
+
+// display
+function display(num,operation){
+  // print
+  console.log(`The $(operation) of two numbers is: ${num}`);
+}
+
+// calling
+sumOfTwoNumber = add(5, 3);
+multiplyOfTwoNumber = multiply(5,3);
+display(sumOfTwoNumber,'sum');
+display(multiplyOfTwoNumber,'multiply');
+```
+
+Above poorly documentated code can be rewrite with proper comment as
+
+```
+/**
+ * Adds two numbers and returns the sum.
+ * 
+ * @param {number} num1 - The first number.
+ * @param {number} num2 - The second number.
+ * @returns {number} The sum of num1 and num2.
+ */
+function add(num1, num2) {
+  const sum = num1 + num2;
+  return sum;
+}
+
+/**
+ * Multiplies two numbers and returns the result.
+ * 
+ * @param {number} num1 - The first number.
+ * @param {number} num2 - The second number.
+ * @returns {number} The product of num1 and num2.
+ */
+function multiply(num1, num2) {
+  const result = num1 + num2;
+  return result;
+}
+
+/**
+ * Displays the result of an operation in a formatted message.
+ * 
+ * @param {number} num - The result of the operation.
+ * @param {string} operation - The name of the operation (e.g., 'sum', 'multiply').
+ */
+function display(num,operation){
+  console.log(`The $(operation) of two numbers is: ${num}`);
+}
+
+// Execute functions with sample inputs and display the results
+sumOfTwoNumber = add(5, 3);
+multiplyOfTwoNumber = multiply(5,3);
+
+display(sumOfTwoNumber,'sum');
+display(multiplyOfTwoNumber,'multiply');
+```
