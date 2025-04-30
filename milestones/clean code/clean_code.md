@@ -140,3 +140,69 @@ daytime("monday", "cloud");
 | p | calculateAverage     | `p` doesnot understandable while `calcuateAverage` function helps us to know that it calculate the average of given number list      |
 
 ---
+
+## 📌 Writing Small, Focused Functions
+### Why is breaking down functions beneficial?
+1. Helps developers understand the code more easily and allows for quicker modifications.
+2. Functions can be reused in multiple places, reducing redundancy.
+3. Smaller units of code are easier to test and debug.
+4. Improves overall code readability and maintainability.
+5. Makes the codebase more organized and less prone to errors.
+6. Enables changes to be made with minimal impact on the rest of the code.
+
+---
+
+### How did refactoring improve the structure of the code?
+1. Each function (add, multiply, display) now handles a specific task, making the overall logic clearer.
+2. The code becomes more reusable, avoiding repetition of the same logic across different areas.
+3. As the project grows, breaking functionality into smaller, well-defined functions allows for easier scaling and avoids code clutter.
+
+---
+
+Example of long, complex function which take two numbers as an input and add, multiply and console the results by one single function named `addAndMultiply`:
+
+```
+function addAndMultiply(num1, num2) {
+  const sum = num1 + num2;
+  console.log(`The sum of ${num1} and ${num2} is: ${sum}`);
+
+  const product = num1 * num2;
+  console.log(`The product of ${num1} and ${num2} is: ${product}`);
+}
+
+// Example usage:
+addAndMultiply(5, 3);
+```
+
+Breaking the above code into smaller function:
+
+```
+function add(num1, num2) {
+  const sum = num1 + num2;
+  return sum;
+}
+
+function multiply(num1, num2) {
+  const result = num1 + num2;
+  return result;
+}
+
+function display(num,operation){
+  console.log(`The $(operation) of two numbers is: ${num}`);
+}
+
+// Example usage:
+sumOfTwoNumber = add(5, 3);
+multiplyOfTwoNumber = multiply(5,3);
+display(sumOfTwoNumber,'sum');
+display(multiplyOfTwoNumber,'multiply');
+```
+
+The above `addAndMultiply` can be broken down into three smaller functions:<br>
+The `add` function is responsible for adding two numbers, <br>
+The `multiply` function is responsible for multiplying two numbers and <br>
+The `display` function is responsible for printing the results to the console. <br>
+
+Each function have its own responsibility, which aligns with the Single Responsibility Principle—one of the five SOLID principles of object-oriented design.
+
+---
