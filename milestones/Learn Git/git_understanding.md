@@ -212,3 +212,46 @@ Detailed:
 
 ### Well Structured Commit
 ![Well Structured Commit](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/well_structured.png)
+
+
+## Pull Requests
+### Why are PRs important in a team workflow?
+1. They help fix bugs and issues while maintaining code standards, especially in the main branch.
+2. They open up discussions between developers to decide the best solution for a given issue.
+3. They track who made changes, what was changed, and why—helpful for future debugging or audits.
+4. They facilitate smoother CI/CD pipelines by integrating automated checks before merging.
+
+
+### What makes a well-structured PR?
+1. It should have a clear title and description explaining the purpose of the pull request.
+2. It should be easy to review and test—ideally addressing small issues like bug fixes or typo corrections.
+3. It’s helpful to link the PR to relevant tickets, issues, or previous PRs.
+4. The code should follow project-specific guidelines, be well-formatted, and organized clearly.
+
+
+### What did you learn from reviewing an open-source PR?
+1. I learned how pull requests are created and how they are reviewed.
+2. It helped me improve my ability to analyze code structure, logic, and performance.
+3. I learned how to give constructive feedback for improvement.
+4. I understood the importance of following project-specific guidelines, including naming conventions and documentation.
+
+### Creating Pull request screenshot:
+
+#### Creating new branch and doing fixes
+![Creating new branch and doing fixes](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/push_code_new_branch.png)<br>
+
+#### Compare pull request
+![Compare pull request](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/Compare_pull_request.png)<br>
+
+#### Comparing changes
+![Comparing changes](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/Comparing_changes.png)<br>
+
+#### Viewing Pull Request
+![Viewing Pull Request](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/pull_request.png)<br>
+
+#### Reviewing Pull Request React
+![ Reviewing Pull Request React](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/reviewing_PR_react.png)<br>
+
+**Note:** I have created a pull request to the `onboarding-frontend-react` repository of Focus Bear. The change I made was in the README.md file, where I removed an extra, lighter bullet point that appeared before **question everything**.
+
+Please review my changes, and if they are helpful, feel free to merge the pull request.
