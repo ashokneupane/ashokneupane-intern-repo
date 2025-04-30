@@ -241,10 +241,10 @@ Detailed:
 ![Creating new branch and doing fixes](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/push_code_new_branch.png)<br>
 
 #### Compare pull request
-![Compare pull request](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/Compare_pull_request.png)<br>
+![Compare pull request](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/compare_pull_request.png)<br>
 
 #### Comparing changes
-![Comparing changes](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/Comparing_changes.png)<br>
+![Comparing changes](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/comparing_changes.png)<br>
 
 #### Viewing Pull Request
 ![Viewing Pull Request](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git/pull_request.png)<br>
