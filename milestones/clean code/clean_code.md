@@ -299,3 +299,56 @@ multiplyOfTwoNumber = multiply(5,3);
 display(sumOfTwoNumber,'sum');
 display(multiplyOfTwoNumber,'multiply');
 ```
+---
+
+## 📌 Avoiding Code Duplication
+
+### Don't Repeat Yourself(DRY) principle
+DRY principle is the fundamental concepts of software development where it allows to write the reusable components, functions, or abstractions to make code more maintainable and efficent instead of repeating the same logic multiple times.
+
+---
+
+### What were the issues with duplicated code?
+1. Difficult to maintain.
+2. Fixing bugs becomes harder.
+3. Debugging takes more time.
+4. Developers may get confused and frustrated.
+5. High processing power usage can lead to performance issues.
+6. New developers may take longer to understand the code.
+7. Increases the risk of bugs.
+
+---
+
+### How did refactoring improve maintainability?
+1. Reduces code duplication and makes the code cleaner.
+2. Converts complex logic into simpler, more manageable parts.
+3. Makes the code easier to read and understand.
+4. Improves the performance of the application.
+5. Lowers the risk of errors.
+6. Removes unnecessary or repeated code.
+7. Makes bug fixing easier and faster.
+
+---
+
+Here's is the simple javascript that contains the unnecessary repetitions:
+
+```
+console.log("Hello, Alice!");
+console.log("Hello, Bob!");
+console.log("Hello, Charlie!");
+console.log("Hello, Dave!");
+console.log("Hello, Eve!");
+```
+
+In the above code block, the same console.log statement is repeated multiple times with just a change in the name. 
+This redundancy can be eliminated by using a loop:
+
+```
+const names = ['Alice','Bob','Charlie','Dave','Eve'];
+for (let i = 0; i < names.length; i++){
+  console.log("Hello," + names[i]);
+}
+```
+
+This codeblock is more efficient and easier to maintain.
+
