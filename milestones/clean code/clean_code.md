@@ -29,6 +29,7 @@
 2. Optimize the website when needed.
 3. Remove unnecessary code and unused files.
 
+---
 
 This one is the dirty code:
 ```var day = "monday";
@@ -79,3 +80,63 @@ let daytime = function(day, weather){
 
 daytime("monday", "cloud");
 ```
+
+
+## Naming Variables & Functions
+
+### ✅ What Makes a Good Variable or Function Name?
+
+1. A good variable name should not be a single character. For example, when summing two numbers, use descriptive names like `sum` or `total`.  
+2. A good function name should clearly describe what the function does. For instance, a function that adds two numbers could be named `sumTwoNumbers`.  
+3. Use camelCase for function and variable names in JavaScript (e.g., `sumTwoNumbers`, `calculateAverage`).  
+4. Avoid vague terms like `data`, `temp`, or `stuff`, as they don’t provide meaningful context.  
+5. Names should be long enough to be clear, but not overly wordy or repetitive.
+
+---
+
+### ⚠️ What Issues Can Arise from Poorly Named Variables?
+
+1. It can confuse developers, making the code hard to understand and maintain.  
+2. Poorly named variables may lead to logical errors, especially when their purpose isn’t clear.  
+3. Debugging becomes more time-consuming due to lack of clarity.  
+4. Overall code readability suffers, especially for other team members or future developers.
+
+---
+
+### 🔁 How Did Refactoring Improve Code Readability?
+
+1. Refactoring with clear variable and function names helps avoid confusion and improves understanding.  
+2. It reduces debugging time by making code logic more transparent.  
+3. New team members can grasp the codebase faster and onboard more efficiently.  
+4. Clear naming reduces mental effort, making it easier to follow and reason about the code.
+
+---
+
+### Unclear variable in a given code block
+```function p(d) {
+  let t = 0;
+  for (let i = 0; i < d.length; i++) {
+    t += d[i];
+  }
+  return t / d.length;
+}
+```
+
+### Making clear and meaningful variable name in above code block
+```function calculateAverage(numArray) {
+  let total = 0;
+  for (let i = 0; i < numArray.length; i++) {
+    total += numArray[i];
+  }
+  return total / numArray.length;
+}
+```
+### Changes in between above two code block
+
+| unclear variable    | clear variable | difference |
+| -------- | ------- | ----- |
+| t  | total    |   `t` doesnot understandable while `total` helps us to know it is the sum or total of given number list    |
+| d | numArray     | `d` doesnot understandable while `numArray` means list of the array of number      |
+| p | calculateAverage     | `p` doesnot understandable while `calcuateAverage` function helps us to know that it calculate the average of given number list      |
+
+---
