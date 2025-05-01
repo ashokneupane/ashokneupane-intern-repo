@@ -9,10 +9,11 @@ I prefer `vite` over `create-react-app` because vite starts faster, simple and p
 
 `npm create vite@latest`
 
-The above command ask you to type project name(onboarding-react) and selecting framework(react).
+The above command ask you to type project name(onboarding-react-project) and selecting framework(react).
 
-## 3. Navigate to project folder
-`cd onboarding-react`
+## 3. Navigate to project folder and do npm install
+`cd onboarding-react-project`<br>
+`npm install`
 
 ## 4. installing Tailwind CSS
 I install `tailwindcss` and its peer dependencies using:<br>
@@ -48,7 +49,7 @@ I added the `@tailwind` directives for each of Tailwind’s layers to `./src/ind
 ```
 
 ## 7. Starting my build process
-Run building process using:
+Run building process using:<br>
 `npm run dev`
 
 ## 8. Start using tailwind in the project
