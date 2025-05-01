@@ -16,3 +16,10 @@ After some investigation, I realized that this was just a VS Code warning—not 
 
 ### Browser View of React with Tailwind
 ![Browser View of React with Tailwind](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/react_fundamentals/react_with_tailwind.png)<br>
+
+## Why are components important in React?
+**1. Enhances Reusability** – Write once and use in multiple places across the app.<br>
+**2. Improves Readability and Maintenance** – Components are easier to read, update, and debug.<br>
+**3. Encapsulates Logic and Structure** – Each component manages its own logic and UI independently.<br>
+**4. Boosts Performance** – Only the necessary components re-render, not the entire page.<br>
+**5. Simplifies Scalability** – Easy to expand the application without affecting existing code.<br>
