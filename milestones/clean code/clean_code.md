@@ -349,6 +349,67 @@ for (let i = 0; i < names.length; i++){
   console.log("Hello," + names[i]);
 }
 ```
-
 This codeblock is more efficient and easier to maintain.
 
+---
+
+## 📌 Refactoring Code for Simplicity
+
+Overly complicated code:
+```
+class Calc {
+  area(a, b, type) {
+    if (type === "square") {
+      if (a && typeof a === "number") {
+        console.log("Area of Square:", Math.pow(a, 2));
+      }
+    } else if (type === "rectangle") {
+      if (a && b && typeof a === "number" && typeof b === "number") {
+        let res = 0;
+        [1].forEach(() => res = a * b);
+        console.log("Area of Rectangle:", res);
+      }
+    } else {
+      console.log("Invalid shape");
+    }
+  }
+}
+
+const c = new Calc();
+c.area(4, null, "square");
+c.area(4, 5, "rectangle");
+```
+
+Refactor code:
+```
+Class areaCalculator
+{
+  square(side)
+  {
+    return side*side;
+  }
+  rectangle(length,width)
+  {
+    return length*width
+  }
+}
+const calc = new areaCalculator();
+console.log("Area of Square:",calc.square(4));
+console.log("Area of Rectangle:",calc.rectangle(4,5));
+
+```
+---
+
+### What made the original code complex?
+1. poor name class `calc`
+2. The `area` method is doing too much- It calculates area as well as perform validation at the same time.
+3. It uses unnecessary code and too many `if else` statements.
+4. no reusablity of code i.e. the area calculation logic is not separated or reusable.
+---
+### How did refactoring improve it?
+1. Makes the code simple, easy to understand, and easier to extend in the future if needed.
+2. Removes unnecessary parts of the code, such as the unused forEach loop.
+3. Improves reusability by separating logic into clear, reusable methods.
+4. Uses clear and meaningful class and method names.
+5. Ensures each method follows the single responsibility principle (does one specific task only).
+---
