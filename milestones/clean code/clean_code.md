@@ -413,3 +413,55 @@ console.log("Area of Rectangle:",calc.rectangle(4,5));
 4. Uses clear and meaningful class and method names.
 5. Ensures each method follows the single responsibility principle (does one specific task only).
 ---
+
+## 📌 Code Formatting & Style Guides
+
+### Importance of consistent code style.
+1. Easy to read, debug, and understand.  
+2. Reduces confusion and makes code reviews easier.  
+3. Makes bugs easier to spot and fix.  
+4. Makes it easier to grasp the logic of the code, especially for new developers.  
+5. Improves productivity, reduces manual checks, and makes long-term maintenance easier.
+
+### Airbnb javascript style guide.
+The Airbnb javascript style guide helps to ensure the consistent and readable coding style.
+It follows various rules while writing code to ensure consistent in the coding style.
+
+1. Using `let` and `const` instead of `var` 
+2. Utilize arrow function for anonymous function, especially when passing them as an arguments.
+3. Use destructuring to extract values from objects and arrays.
+4. Employ template literals (```) for string concatenation and embedding expressions.
+5. Maintain consistent spacing, indentation, and formatting throughout the codebase
+
+
+### Some installation of eslint and Prettier is shown in below screenshot:
+
+#### Eslint Install
+![Eslint Install](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/react_fundamentals/eslint_install.png)<br>
+
+#### Running Linter
+![Running linter](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/react_fundamentals/running_linter.png)<br>
+
+#### Running Prettier
+![Running Prettier](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/react_fundamentals/running_prettier.png)<br>
+
+I ran prettier in my console using the command `npx prettier --write .` to format all the file in the project.
+
+Additionally, I used ESLint, which suggested defining prop types. In the file `HelloWorld.jsx`, it recommended using `PropTypes`, so I added them and resolved the issue.
+
+### Why is code formatting important?
+1. To maintain consistency in the files and make them readable.
+2. To reduce errors and bugs.
+3. To save time during code reviews.
+4. To improve productivity by saving developers time on manual code formatting.
+
+### What issues did the linter detect?
+1. Missing PropTypes in the `HelloWorld.jsx` component.
+2. unused variables in some files.
+3. React-specific warnings, such as missing key props.
+4. Improper indentation and spacing.
+
+### Did formatting the code make it easier to read?
+Yes, formatting the code with Prettier significantly improved readability.
+It organized the structure, fixed indentation, aligned brackets, and ensured consistent use of quotes and spacing.
+This made the code easier to understand, maintain, and review.
