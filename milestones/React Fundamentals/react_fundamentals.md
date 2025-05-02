@@ -75,7 +75,7 @@ Button.jsx:
 export default function Button(props) {
     return (
         <button
-            className="bg-blue-400 hover:bg-blue-600 text-white font-bold rounded"
+            className="bg-blue-400 hover:bg-blue-600 text-white font-bold rounded active:bg-blue-700"
             onClick={props.onClick}
         >
             {props.children}
@@ -83,10 +83,10 @@ export default function Button(props) {
     );
 }
 ```
+Please find the below video link where button is customized using tailwind css:
 
-Please see the below screenshot where button is customized using tailwind css:
+https://www.loom.com/share/f735f50fb2d9475e93fc4bd2766325cb<br>
 
-![Customized Button Tailwind CSS](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/react_fundamentals/customized_btn_tailwind.png)<br>
 
 ### What are the advantages of using Tailwind CSS?
 1. Utility class makes fast and straightforward - no need to make seperate css files.
