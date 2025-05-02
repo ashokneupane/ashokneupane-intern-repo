@@ -1,3 +1,6 @@
+/* eslint-disable react/react-in-jsx-scope */
+import PropTypes from 'prop-types';
+
 function HelloWorld(props) {
   return (
     <div>
@@ -5,5 +8,9 @@ function HelloWorld(props) {
     </div>
   );
 }
+
+HelloWorld.propTypes = {
+  name: PropTypes.string.isRequired,
+};
 
 export default HelloWorld;
