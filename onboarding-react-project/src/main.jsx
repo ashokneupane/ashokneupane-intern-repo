@@ -6,13 +6,13 @@ import Counter from './Counter.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div class="flex flex-col md:flex-row gap-4 p-4">
+    <div className="flex flex-col md:flex-row gap-4 p-4">
 
-      <div class="bg-white p-4 border rounded w-full">
+      <div className="bg-white p-4 border rounded w-full">
         <HelloWorld name="Focus Bear!" />
       </div>
 
-      <div class="bg-white p-4 border rounded w-full">
+      <div className="bg-white p-4 border rounded w-full">
         <Counter />
       </div>
 

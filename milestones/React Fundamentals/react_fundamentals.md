@@ -49,4 +49,58 @@ Please see the below screenshot for more details:
 
 ![Modify State Directly](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/react_fundamentals/modify_state_directly.png)<br>
 
+---
+
+## 📌 Styling with Tailwind CSS #28
+Counter.jsx:
+
+```
+import {useState} from 'react';
+import Button from './components/Button';
+function Counter(){
+    const [count, setCount] = useState(0);
+return (
+    <>
+<Button onClick={() => setCount(count+1)}> Click Me </Button>
+<p>You have click {count} times</p>
+</>
+);
+}
+export default Counter;
+```
+
+Button.jsx:
+
+```
+export default function Button(props) {
+    return (
+        <button
+            className="bg-blue-400 hover:bg-blue-600 text-white font-bold rounded"
+            onClick={props.onClick}
+        >
+            {props.children}
+        </button>
+    );
+}
+```
+
+Please see the below screenshot where button is customized using tailwind css:
+
+![Customized Button Tailwind CSS](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/react_fundamentals/customized_btn_tailwind.png)<br>
+
+### What are the advantages of using Tailwind CSS?
+1. Utility class makes fast and straightforward - no need to make seperate css files.
+2. Speeding up the development process by reducing the need to switch between HTML and CSS.
+3. Faster page reload and improved performance by removing unused css files.
+4. Provide a high degree of customization and flexibility.
+5. Built-in responsive classes like md:, lg:, etc., help you adjust layouts easily across screen sizes.
+
+### What are some potential pitfalls?
+1. **Cluttered HTML** – Too many utility classes can make markup hard to read.
+2. **Messy in large projects** – Without structure, code can become repetitive and unmanageable.
+3. **Learning curve** – Utility-first approach may be confusing for beginners.
+4. **Code duplication** – Inline styling can lead to repeated patterns across files.
+5. **Complex customization** – Editing the config file requires extra knowledge and effort.
+
+---
 
