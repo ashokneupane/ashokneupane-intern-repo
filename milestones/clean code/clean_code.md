@@ -564,5 +564,40 @@ function areaOfSquare(value) {
 
 The refactored code now handles invalid user input without raising unhandled exceptions. Instead of crashing, it notifies the user about the specific issue with their input, allowing the program to continue running effectively. This makes the code safer, easier to debug, and more user-friendly. Additionally, the use of input validation and guard clauses improves the overall readability and maintainability of the code.
 
+---
+
+##  Writing Unit Tests for Clean Code
+
+### Importance of unit testing in software development
+1. Catches bugs early before code reaches production.
+2. Improves code quality by enforcing modular and testable design.
+3. Simplifies debugging by isolating test failures.
+4. Boosts developer confidence when making changes.
+5. Supports refactoring without breaking existing functionality.
+6. Enables automation for continuous integration and deployment.
+7. Documents expected behavior of functions and components.
+
+### Jest for Javascript
+I have used Jest for javascript. The test code is uploaded in the `tests` folder under `onboarding-react-project` project root path.`
+Here, is the screenshot of my test cases:
+#### Running Test Cases
+![Running Test Cases](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/react_fundamentals/running_test_cases.png)<br>
+
+
+### How do unit tests help keep code clean?
+1. Encourages writing small, focused functions that are easier to test and maintain.
+2. Helps catch bugs early, preventing issues from reaching the production environment.
+3. Promotes modular design, making components more reusable and easier to manage.
+4. Enforces clear naming and logical structure, which improves code readability.
+
+### What issues did you find while testing?
+I initially wrote my code using ES6 module syntax, but encountered issues running tests with Jest, as it primarily supports CommonJS by default. After some research, I discovered that configuring Babel resolves this compatibility issue. Once set up, Babel successfully allowed me to use ES6 syntax in my tests with Jest.
+
+---
+
+
+
+
+
 
 
