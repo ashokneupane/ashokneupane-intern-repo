@@ -465,3 +465,104 @@ Additionally, I used ESLint, which suggested defining prop types. In the file `H
 Yes, formatting the code with Prettier significantly improved readability.
 It organized the structure, fixed indentation, aligned brackets, and ensured consistent use of quotes and spacing.
 This made the code easier to understand, maintain, and review.
+
+## 📌 Handling Errors & Edge Cases
+### Stategies for handling errors.
+
+#### 1. Guard clauses/early error handling
+Guard clauses are the early exit from a function to handle edge cases or invalid inputs, which improves readability and reducing nesting.
+
+```
+function square(value) {
+   if(typeof value === 'string'){
+    return "Error: value must be an number.";
+   }
+
+   //main logic here
+}
+```
+
+#### 2. Use Try/Catch exception handling.
+Another way is to handle the exception is using by try/catch exception block for unexpected or invalid situations and customizing the error message.
+
+```
+function divide(a, b) {
+  try {
+    if (b === 0) {
+      throw new Error("Division by zero is not allowed.");
+    }
+    return a / b;
+  } catch (error) {
+    console.error("An error occurred:", error.message);
+    return NaN;
+  } finally {
+    console.log("Division operation complete.");
+  }
+}
+
+console.log(divide(10, 2)); // Output: 5, "Division operation complete."
+console.log(divide(10, 0)); // Output: "An error occurred: Division by zero is not allowed.", NaN, "Division operation complete."
+```
+
+#### 3. Input Validation
+Always validate input, especially the form request and for function parameters.
+For example, type checking, null checks, range checking, and so on.
+```
+function validateForm(value) {
+  if (value == "") {
+    alert("Value must be filled out");
+    return false;
+  }
+}
+```
+
+#### 4. Logging
+Log if there is any error/exception occurs using 
+
+`console.log()`,<br>
+`console.info()`,<br>
+`console.warn()`,<br>
+`console.error()`,<br>
+`console.debug()` and so on.<br>
+
+
+### Function not handling errors and unexpected inputs.
+
+```
+function areaOfSquare(value){
+  return value*value;
+}
+```
+
+#### Issue with original code
+1. if value is not a number, it will raise a TypeError.
+2. Return `NAN` or garbage if passed `null` and `undefined` value.
+
+### Improve & refactor code
+
+```
+function areaOfSquare(value) {
+  if (value === null || value === undefined) {
+    throw new Error("Input value is required.");
+  }
+
+  if (typeof value !== "number" || isNaN(value)) {
+    throw new TypeError("Input must be a valid number.");
+  }
+
+  if (value < 0) {
+    throw new RangeError("Length of a square cannot be negative.");
+  }
+
+  return value * value;
+}
+```
+
+### Refactor code note
+1. `Guard clauses` are used for quick exists on bad input.
+2. It ensures the function only processes valid and positive numbers.
+
+The refactored code now handles invalid user input without raising unhandled exceptions. Instead of crashing, it notifies the user about the specific issue with their input, allowing the program to continue running effectively. This makes the code safer, easier to debug, and more user-friendly. Additionally, the use of input validation and guard clauses improves the overall readability and maintainability of the code.
+
+
+
