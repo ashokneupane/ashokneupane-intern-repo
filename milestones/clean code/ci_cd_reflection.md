@@ -17,6 +17,10 @@ CI/CD stands for Continuous Integration and Continuous Delivery/Deployment, wher
 ## Git Hooks(Husky)
 ![Git Hooks(Husky)](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/git_hooks_husky.png)<br>
 
+## Pull Request Fail
+![Pull Request Fail](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/pull_request_fail.png)<br>
+
+
 ## What is the purpose of CI/CD?
 
 1. Automating the build, test, and deployment process.
