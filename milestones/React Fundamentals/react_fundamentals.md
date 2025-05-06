@@ -111,3 +111,17 @@ https://www.loom.com/share/f735f50fb2d9475e93fc4bd2766325cb<br>
 3. changing html syntax to jsx.
 4. Rendering last list can slow down the performance.
 5. Using index as a key is okay for static lists, but risky for dynamic ones.
+
+---
+
+## 📌 Navigation with React Router
+## What are the advantages of client-side routing?
+1. Users can navigate between pages without reloading the entire site.
+2. Fast navigation provides a better user experience.
+3. Only specific parts of the page are updated—no full page reloads.
+4. Reduces server load by handling routing on the client side.
+5. Maintains application state between page switches.
+6. Loads code only when needed, improving performance.
+
+---
+

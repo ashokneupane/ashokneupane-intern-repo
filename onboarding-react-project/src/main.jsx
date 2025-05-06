@@ -2,23 +2,39 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import HelloWorld from "./HelloWorld.jsx";
-import Counter from "./Counter.jsx";
-import Form from "./components/Form.jsx";
+import Home from "./Home.jsx";
+import Profile from "./Profile.jsx";
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <div className="flex flex-col md:flex-row gap-8 p-4">
-      <div className="bg-white p-4 border rounded w-full">
-        <HelloWorld name="Focus Bear!" />
-      </div>
+    <BrowserRouter>
 
-      <div className="bg-white p-4 border rounded w-full">
-        <Counter />
-      </div>
-      <div className="bg-white p-6 border rounded w-full">
-        <Form />
-      </div>
-    </div>
+    <header className="fixed top-2 left-2 right-2 w-full bg-blue-100 shadow-md z-50">
+        <div className="max-w-screen-xl mx-auto px-4 py-4">
+          <nav className="flex">
+            <ul className="flex space-x-6">
+              <li>
+                <Link className="text-blue-500 hover:text-blue-800" to="/">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link className="text-blue-500 hover:text-blue-800" to="/profile">
+                  Profile
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+            <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+
+    </BrowserRouter>
+
   </StrictMode>,
 );
