@@ -1,5 +1,5 @@
 /* eslint-disable react/react-in-jsx-scope */
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 function HelloWorld(props) {
   return (

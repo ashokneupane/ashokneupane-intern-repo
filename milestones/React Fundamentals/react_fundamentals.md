@@ -103,4 +103,11 @@ https://www.loom.com/share/f735f50fb2d9475e93fc4bd2766325cb<br>
 5. **Complex customization** – Editing the config file requires extra knowledge and effort.
 
 ---
+## 📌 Working with Lists & User Input
 
+### What are some common issues when working with lists in React?
+1. Missing or incorrect prop causes rendering bugs.
+2. not wrapping the multiple elements.
+3. changing html syntax to jsx.
+4. Rendering last list can slow down the performance.
+5. Using index as a key is okay for static lists, but risky for dynamic ones.
