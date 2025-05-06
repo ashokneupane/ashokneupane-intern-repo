@@ -10,4 +10,12 @@ CI/CD stands for Continuous Integration and Continuous Delivery/Deployment, wher
 3. Enhances team productivity by reducing repetitive tasks.
 4. Enables faster feedback and quicker issue resolution.
 
+## CI workflow
+![CI Workflow](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/ci_workflow.png)<br>
+
+## Git Hooks(Husky)
+![CI Workflow](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/ci_workflow.png)<br>
+
+
+
 
