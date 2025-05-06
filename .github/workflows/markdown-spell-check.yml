@@ -1,9 +1,7 @@
 name: Markdown Lint and Spell Check
 
 on:
-  pull_request:
-    branches:
-      - main
+  [push, pull_request]
 
 jobs:
   markdown-lint-and-spell-check:
