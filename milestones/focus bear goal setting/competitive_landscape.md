@@ -24,7 +24,7 @@ Currently, deactivating or pausing the app requires going through multiple steps
 ![Cold Turkey app](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/trying_out_focus_bear/cold_turkey.png)<br>
 
 ### Tiimo Focus time
-![Tiimo Focus time](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/trying_out_focus_bear/tiimo_focus_time.png)<br>
+![Tiimo Focus time](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/trying_out_focus_bear/tiimo_focus_time.jpeg)<br>
 
 ### Tiimo Profile
-![Tiimo Profile](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/trying_out_focus_bear/tiimo_profile.png)<br>
+![Tiimo Profile](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/trying_out_focus_bear/tiimo_profile.jpeg)<br>
