@@ -101,6 +101,6 @@ In order to improve data security, i will be commited to use the strong and uniq
    This Privacy Policy may be updated to reflect legal changes, court decisions, or industry practices. Users should check it periodically for updates.
 
 ## Focus Bear Privacy Policy Regulation
-![Focus Bear Privacy Policy Regulation](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/companies_policies/focus_bear_privacy_policy.jpeg)<br>
+![Focus Bear Privacy Policy Regulation](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/companies_policies/focus_bear_privacy_policy.png)<br>
 
 The above screenshot highlights Focus Bear's compliance with data protection standards. As the company adheres to the General Data Protection Regulation (EU) 2016/679 (GDPR), customers using the app can trust that their personal information is handled securely and responsibly. There is no need for concern regarding the privacy and protection of their data.
