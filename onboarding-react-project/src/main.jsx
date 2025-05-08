@@ -4,14 +4,14 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import Home from "./Home.jsx";
 import Profile from "./Profile.jsx";
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import APIcall from "./api/api_call.jsx";
+import Form from "./Form.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
-
-    <header className="fixed top-2 left-2 right-2 w-full bg-blue-100 shadow-md z-50">
+      <header className="fixed top-2 left-2 right-2 w-full bg-blue-100 shadow-md z-50">
         <div className="max-w-screen-xl mx-auto px-4 py-4">
           <nav className="flex">
             <ul className="flex space-x-6">
@@ -21,13 +21,24 @@ createRoot(document.getElementById("root")).render(
                 </Link>
               </li>
               <li>
-                <Link className="text-blue-500 hover:text-blue-800" to="/profile">
+                <Link
+                  className="text-blue-500 hover:text-blue-800"
+                  to="/profile"
+                >
                   Profile
                 </Link>
               </li>
               <li>
-                <Link className="text-blue-500 hover:text-blue-800" to="/api-call">
+                <Link
+                  className="text-blue-500 hover:text-blue-800"
+                  to="/api-call"
+                >
                   API Call
+                </Link>
+              </li>
+              <li>
+                <Link className="text-blue-500 hover:text-blue-800" to="/form">
+                  Form
                 </Link>
               </li>
             </ul>
@@ -35,13 +46,12 @@ createRoot(document.getElementById("root")).render(
         </div>
       </header>
 
-            <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/api-call" element={<APIcall />} />
+        <Route path="/form" element={<Form />} />
       </Routes>
-
     </BrowserRouter>
-
   </StrictMode>,
 );
