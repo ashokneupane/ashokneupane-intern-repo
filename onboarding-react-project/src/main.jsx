@@ -12,6 +12,7 @@ import "./i18n.js";
 import { useTranslation } from "react-i18next";
 import { supportedLngs } from "./i18n.js";
 import UseEffectHook from "./hooks/UseEffectHook.jsx";
+import BuggyExample from "./buggy_example.jsx";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -60,6 +61,14 @@ function App() {
                     UseEffect Hook
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    className="text-blue-500 hover:text-blue-800"
+                    to="/buggy-example"
+                  >
+                    Buggy Example
+                  </Link>
+                </li>
 
                 
 
@@ -84,6 +93,7 @@ function App() {
           <Route path="/api-call" element={<APIcall />} />
           <Route path="/form" element={<Form />} />
           <Route path="/use-effect-hook" element={<UseEffectHook />} />
+          <Route path="/buggy-example" element={<BuggyExample />} />
         </Routes>
       </BrowserRouter>
     </StrictMode>
