@@ -14,13 +14,13 @@
 
 ## How do you debug issues in large React codebases?
 
-**1. Isolate the problem** – Narrow down the component or logic causing the issue.
-**2. Log strategically** – Log props, state, and function execution at critical points.
-**3. Use Profiler** – Find and fix unnecessary re-renders and performance issues.
-**4. Break components into smaller parts** – Easier to test, debug, and reuse.
-**5. Write tests** – Ensure stability and catch bugs early.
-**6. Use TypeScript (if possible)** – Reduce runtime errors with static type checking.
-**7. Collaborate** – Pair programming or code reviews help spot bugs faster.
+**1. Isolate the problem** – Narrow down the component or logic causing the issue.<br>
+**2. Log strategically** – Log props, state, and function execution at critical points.<br>
+**3. Use Profiler** – Find and fix unnecessary re-renders and performance issues.<br>
+**4. Break components into smaller parts** – Easier to test, debug, and reuse.<br>
+**5. Write tests** – Ensure stability and catch bugs early.<br>
+**6. Use TypeScript (if possible)** – Reduce runtime errors with static type checking.<br>
+**7. Collaborate** – Pair programming or code reviews help spot bugs faster.<br>
 
 
 ## React Devtools
