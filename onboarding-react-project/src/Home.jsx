@@ -2,25 +2,38 @@ import HelloWorld from "./HelloWorld.jsx";
 import Counter from "./Counter.jsx";
 import Form from "./components/Form.jsx";
 import Timer from "./hooks/CleanUpUseEffect.jsx";
-import { useState } from "react";
+
+import { ErrorBoundary } from "react-error-boundary";
+import ErrorFallback from "./components/ErrorFallback";
 
 export default function Home() {
-  const [showTimer, setShowTimer] = useState(true);
   return (
     <div className="flex flex-col md:flex-row gap-8 p-4">
+
+      <ErrorBoundary FallbackComponent={ErrorFallback}>
       <div className="bg-white p-4 border rounded w-full">
         <HelloWorld name="Focus Bear!" />
       </div>
+      </ErrorBoundary>
 
-      <div className="bg-white p-4 border rounded w-full">
-        <Counter />
-      </div>
-      <div className="bg-white p-4 border rounded w-full">
-        <Form />
-      </div>
-      <div className="bg-white p-4 border rounded w-full">
-        <Timer />
-      </div>
+        <ErrorBoundary FallbackComponent={ErrorFallback}>
+        <div className="bg-white p-4 border rounded w-full">
+          <Counter />
+        </div>
+      </ErrorBoundary>
+
+      <ErrorBoundary FallbackComponent={ErrorFallback}>
+        <div className="bg-white p-4 border rounded w-full">
+          <Form />
+        </div>
+      </ErrorBoundary>
+
+      <ErrorBoundary FallbackComponent={ErrorFallback}>
+        <div className="bg-white p-4 border rounded w-full">
+          <Timer />
+        </div>
+      </ErrorBoundary>
+
       
     </div>
   );
