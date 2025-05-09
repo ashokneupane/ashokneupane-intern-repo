@@ -9,14 +9,13 @@ import ErrorFallback from "./components/ErrorFallback";
 export default function Home() {
   return (
     <div className="flex flex-col md:flex-row gap-8 p-4">
-
       <ErrorBoundary FallbackComponent={ErrorFallback}>
-      <div className="bg-white p-4 border rounded w-full">
-        <HelloWorld name="Focus Bear!" />
-      </div>
+        <div className="bg-white p-4 border rounded w-full">
+          <HelloWorld name="Focus Bear!" />
+        </div>
       </ErrorBoundary>
 
-        <ErrorBoundary FallbackComponent={ErrorFallback}>
+      <ErrorBoundary FallbackComponent={ErrorFallback}>
         <div className="bg-white p-4 border rounded w-full">
           <Counter />
         </div>
@@ -33,8 +32,6 @@ export default function Home() {
           <Timer />
         </div>
       </ErrorBoundary>
-
-      
     </div>
   );
 }

@@ -70,8 +70,6 @@ function App() {
                   </Link>
                 </li>
 
-                
-
                 <select
                   value={t.resolvedLanguage}
                   onChange={(e) => i18n.changeLanguage(e.target.value)}

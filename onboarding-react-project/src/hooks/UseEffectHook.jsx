@@ -1,10 +1,9 @@
-import {useEffect} from "react";
+import { useEffect } from "react";
 export default function UseEffectHook() {
-useEffect(()=>{
+  useEffect(() => {
     console.log("component mounted");
     return () => {
-        console.log("component unmounted");
-    }
-},[])
+      console.log("component unmounted");
+    };
+  }, []);
 }
-

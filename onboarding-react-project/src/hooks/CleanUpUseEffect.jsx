@@ -1,11 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 function Timer() {
   const [time, setTime] = useState(0);
 
   useEffect(() => {
     // Set up an interval to increment time every second
-    const intervalId = setInterval(() => setTime(prevTime => prevTime + 1), 1000);
+    const intervalId = setInterval(
+      () => setTime((prevTime) => prevTime + 1),
+      1000,
+    );
 
     // Cleanup function to clear the interval when the component unmounts
     return () => {
