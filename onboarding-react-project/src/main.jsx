@@ -11,6 +11,7 @@ import Form from "./Form.jsx";
 import "./i18n.js";
 import { useTranslation } from "react-i18next";
 import { supportedLngs } from "./i18n.js";
+import UseEffectHook from "./hooks/UseEffectHook.jsx";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -51,6 +52,16 @@ function App() {
                     {t("form")}
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    className="text-blue-500 hover:text-blue-800"
+                    to="/use-effect-hook"
+                  >
+                    UseEffect Hook
+                  </Link>
+                </li>
+
+                
 
                 <select
                   value={t.resolvedLanguage}
@@ -72,6 +83,7 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/api-call" element={<APIcall />} />
           <Route path="/form" element={<Form />} />
+          <Route path="/use-effect-hook" element={<UseEffectHook />} />
         </Routes>
       </BrowserRouter>
     </StrictMode>
