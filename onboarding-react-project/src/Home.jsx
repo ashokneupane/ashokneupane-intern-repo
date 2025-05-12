@@ -2,6 +2,7 @@ import HelloWorld from "./HelloWorld.jsx";
 import Counter from "./Counter.jsx";
 import Form from "./components/Form.jsx";
 import Timer from "./hooks/CleanUpUseEffect.jsx";
+import ButtonUseCallback from "./hooks/UseCallback.jsx";
 
 import { ErrorBoundary } from "react-error-boundary";
 import ErrorFallback from "./components/ErrorFallback";
@@ -32,6 +33,13 @@ export default function Home() {
           <Timer />
         </div>
       </ErrorBoundary>
+
+       <ErrorBoundary FallbackComponent={ErrorFallback}>
+        <div className="bg-white p-4 border rounded w-full">
+          <ButtonUseCallback />
+        </div>
+      </ErrorBoundary>
+
     </div>
   );
 }
