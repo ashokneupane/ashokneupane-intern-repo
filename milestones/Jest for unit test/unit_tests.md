@@ -28,3 +28,36 @@ Here, is the screenshot of my test cases:
 
 ## What did you find challenging when writing your first Jest test?
 I initially wrote my code using ES6 module syntax, but encountered issues running tests with Jest, as it primarily supports CommonJS by default. After some research, I discovered that configuring Babel resolves this compatibility issue. Once set up, Babel successfully allowed me to use ES6 syntax in my tests with Jest.
+
+## Testing React Components with Jest & React Testing Library #17
+### React Testing Library with Jest
+React Testing Library is a lightweight testing library that helps you test React components by simulating how users interact with your app — focusing on behavior, not implementation details.
+
+Some screenshot of testing:
+## Hello World Test
+![Hello World Test](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/jest_test/hello_world_test.png)<br>
+
+## Click Counter Test
+![Click Counter Test](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/jest_test/click_counter_test.png)<br>
+
+
+### What are the benefits of using React Testing Library instead of testing implementation details?
+1. Focuses on what the user sees and does, not how the component is built.
+2. Less likely to break when UI or internal code structure changes.
+3. Tests are easier to read, write, and maintain over time.
+4. Promotes use of semantic HTML and accessibility roles (e.g., `getByRole`, `getByLabelText`).
+5. Fewer mocks needed; tests behave more like real user interactions.
+6. Safe to refactor internals without breaking tests, as long as the UI behavior stays the same.
+7. Clearly shows how the app is expected to behave from the user’s perspective.
+
+
+### What challenges did you encounter when simulating user interaction?
+I initially wrote my code using ES6 module syntax, but encountered issues running tests with Jest, as it primarily supports CommonJS by default. After some research, I discovered that configuring Babel resolves this compatibility issue. Once set up, Babel successfully allowed me to use ES6 syntax in my tests with Jest.<br>
+
+Some other challenges are:<br>
+
+**1. Async behavior** – UI updates may require `waitFor` or `findBy` to handle delays.<br>
+**2. Complex components** – Elements like modals or dropdowns can be difficult to interact with.<br>
+**3. Poor accessibility** – Missing labels or roles make element selection harder.<br>
+**4. Form handling** – Typing and submitting forms needs accurate event simulation.<br>
+**5. Third-party UI libraries** – Wrapped elements can complicate user interaction and queries.
