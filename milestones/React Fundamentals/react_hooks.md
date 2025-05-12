@@ -46,3 +46,51 @@ useEffect(() => {
   // no cleanup
 });
 ```
+
+# Preventing Unnecessary Renders with useCallback #21
+## What is useCallback?
+useCallback is a hook in react which memoize the callback functions. It memoizes a callback function and prevents unnecessary re-renders of a child component.
+useCallback can be defined as:
+```
+const cachedFn = useCallback(fn, dependencies)
+```
+
+## Video link for useCallback function 
+https://www.loom.com/share/6221ca61111140d082077fe6323dc0c7
+
+The video shows the unnecessary rendering of the child components when button click of the parents component.
+
+If we remove callback function from the parent component, then both child and parent components re-render.
+
+## What problem does useCallback solve?
+The problem that `useCallback` solves is preventing unnecessary re-rendering of child components when the parent component re-renders, thereby helping to optimize performance.
+
+## How does useCallback work differently from useMemo?
+
+### useCallback
+**purpose:** Memorizes a function.<br>
+**Use case:** When you want to prevent passing a new function reference to child components on every render (to avoid unnecessary re-renders).<br>
+**Example:**
+```
+const handleClick = useCallback(() => {
+  console.log("clicked");
+}, []);
+```
+
+### useMemo
+**Purpose:** Memoizes the result of a computation.<br>
+**Use case:** When you have an expensive calculation and want to cache the result.<br>
+**Example:**
+```
+const sortedData = useMemo(() => expensiveSort(data), [data]);
+```
+
+## When would useCallback not be useful?
+1. If the function is only used within the same component, there's usually no benefit in memoizing it.
+```
+const handleClick = () => setCount(c => c + 1);
+```
+
+2. If the app is small or the component isnot suffering from performances issues.
+3. If the dependencies inside useCallback change every render, it will recreate the function anyway — defeating the purpose.
+
