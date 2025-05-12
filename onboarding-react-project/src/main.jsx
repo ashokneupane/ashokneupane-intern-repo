@@ -13,6 +13,8 @@ import { useTranslation } from "react-i18next";
 import { supportedLngs } from "./i18n.js";
 import UseEffectHook from "./hooks/UseEffectHook.jsx";
 import BuggyExample from "./buggy_example.jsx";
+import { store } from "./app/store";
+import { Provider } from "react-redux";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -98,4 +100,8 @@ function App() {
   );
 }
 
-createRoot(document.getElementById("root")).render(<App />);
+createRoot(document.getElementById("root")).render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+);
