@@ -61,3 +61,21 @@ Some other challenges are:<br>
 **3. Poor accessibility** – Missing labels or roles make element selection harder.<br>
 **4. Form handling** – Typing and submitting forms needs accurate event simulation.<br>
 **5. Third-party UI libraries** – Wrapped elements can complicate user interaction and queries.
+
+## Mocking API Calls in Jest #16
+### Running test:
+![Running Test](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/jest_test/mock_api_jest.png)<br>
+
+### Why is it important to mock API calls in tests?
+1. It avoids real network calls and make it faster, more reliable tests.
+2. It simulates different scenarios (e.g., success, error, delay) to test how your code handles them.
+3. It improves performance by not delaying from real requests.
+4. It can run offline - no internet needed.
+
+### What are some common pitfalls when testing asynchronous code?
+1. **Not waiting for async ops** – Leads to flaky tests.
+2. **Race conditions** – Can cause inconsistent failures.
+3. **Poor error handling** – Misses edge cases.
+4. **Complex setups** – Makes tests fragile.
+5. **Timeout issues** – Causes unnecessary delays or failures.
+
