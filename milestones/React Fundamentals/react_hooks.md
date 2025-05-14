@@ -94,3 +94,22 @@ const handleClick = () => setCount(c => c + 1);
 2. If the app is small or the component isnot suffering from performances issues.
 3. If the dependencies inside useCallback change every render, it will recreate the function anyway — defeating the purpose.
 
+---
+
+# Optimizing Performance with useMemo #22
+
+## How does useMemo improve performance?
+useMemo improves performance by memoizing the result of an expensive computation. In the `NumberList` component, the expensive `total` calculation only runs once—when the numbers array changes. Without useMemo, this calculation would run on every re-render, even when it’s unnecessary.
+
+## When should you avoid using useMemo?
+1. The computation is cheap or fast.
+2. You don’t experience performance issues.
+3. The dependency array is unstable or changes too often.
+
+Overusing useMemo can actually hurt performance by adding overhead.
+
+## What happens if you remove useMemo from your implementation?
+If useMemo is removed, the expensive calculation would run every time the component re-renders, such as when clicking the “Re-render” button. This leads to noticeable delays, especially with large datasets or slow computations.
+
+---
+

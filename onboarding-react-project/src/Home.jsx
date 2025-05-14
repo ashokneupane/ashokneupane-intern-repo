@@ -7,6 +7,7 @@ import ButtonUseCallback from "./hooks/UseCallback.jsx";
 import { ErrorBoundary } from "react-error-boundary";
 import ErrorFallback from "./components/ErrorFallback";
 import { ReduxCounter } from "./features/counter/reduxCounter.jsx";
+import NumberList from "./hooks/UseMemoHook.jsx"
 
 export default function Home() {
   return (
@@ -45,6 +46,13 @@ export default function Home() {
         <div className="bg-white p-4 border rounded w-full">
           Counter using Redux Toolkit.
           <ReduxCounter />
+        </div>
+      </ErrorBoundary>
+
+      <ErrorBoundary FallbackComponent={ErrorFallback}>
+        <div className="bg-white p-4 border rounded w-full">
+          Use Memo Hook
+          <NumberList />
         </div>
       </ErrorBoundary>
     </div>
