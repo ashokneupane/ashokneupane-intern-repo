@@ -13,3 +13,23 @@
 **1. Complex Apps:** If your app is large or has a lot of state to manage, Redux helps keep things organized.<br>
 **2. Shared State:** When you need to share the same state between many components, Redux makes it easy to keep everything in sync.<br>
 **3. Predictable State:** Redux’s structure makes state changes predictable, which is great for debugging and scaling your app.<br>
+
+----
+
+## Using Selectors in Redux Toolkit #25
+
+### What are the benefits of using selectors instead of directly accessing state?
+1. The same selectors can be resused across multiple components, which avoids duplication of code.
+2. selectors hide the structure of the redux state from components.
+```
+// selector
+export const selectUserName = (state) => state.user.name;
+```
+```
+// in component
+const name = useSelector(selectUserName);
+```
+3. Selectors are plain functions and easy to test in isolation, without involving React or the Redux store.
+4. Make code easier to update and manage because of centralized state access.
+
+---
