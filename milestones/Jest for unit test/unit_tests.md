@@ -79,3 +79,23 @@ Some other challenges are:<br>
 4. **Complex setups** – Makes tests fragile.
 5. **Timeout issues** – Causes unnecessary delays or failures.
 
+---
+
+## Testing Redux with Jest #15
+### What was the most challenging part of testing Redux?
+1. **Async thunks** are tricky due to multiple states (`pending`, `fulfilled`, `rejected`).
+2. **Mocking APIs** adds complexity and requires tools like `jest.mock()` or `msw`.
+3. **Redux setup** (like wrapping components in `<Provider>`) can clutter tests.
+4. **Over-testing logic** instead of focusing on behavior makes tests harder to maintain.
+5. **State structure changes** can break multiple tests, increasing maintenance.
+
+### How do Redux tests differ from React component tests?
+1. Redux tests are logic-based and often don't require rendering components.
+2. Component tests usually involve the DOM and often need the Redux store if they use `useSelector` or `useDispatch`.
+3. Redux tests are usually unit tests, while component tests can be unit, integration, or end-to-end.
+
+### Redux reducers and actions test in jest
+![Redux reducers and actions test in jest](https://github.com/ashokneupane/ashokneupane-intern-repo/blob/main/milestones/images/jest_test/redux_counterslice_test.png)<br>
+
+---
+
