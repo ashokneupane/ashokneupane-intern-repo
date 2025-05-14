@@ -7,9 +7,12 @@ const slowFunction = (nums) => {
 
 const NumberList = () => {
   const [count, setCount] = useState(0);
-  const numbers =  useMemo(() => Array.from({ length: 100 }, (_, i) => i + 1),[]);
+  const numbers = useMemo(
+    () => Array.from({ length: 100 }, (_, i) => i + 1),
+    [],
+  );
 
-  const total = useMemo(() => slowFunction(numbers),[numbers]);
+  const total = useMemo(() => slowFunction(numbers), [numbers]);
 
   return (
     <div>

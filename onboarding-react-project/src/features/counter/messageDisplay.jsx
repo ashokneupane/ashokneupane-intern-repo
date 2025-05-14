@@ -1,20 +1,19 @@
 import { useSelector } from "react-redux";
 
-export function MessageDisplay(){
-const count = useSelector((state) => state.counter.value);
+export function MessageDisplay() {
+  const count = useSelector((state) => state.counter.value);
 
-let message;
-if (count>10){
+  let message;
+  if (count > 10) {
     message = "Counter value is high";
-}else if (count<0){
+  } else if (count < 0) {
     message = "Counter value is negative";
-}else{
+  } else {
     message = "Keep counting";
-}
-return(
+  }
+  return (
     <div>
-        <p>{message}</p>
+      <p>{message}</p>
     </div>
-)
+  );
 }
-

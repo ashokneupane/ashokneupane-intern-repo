@@ -7,7 +7,7 @@ import ButtonUseCallback from "./hooks/UseCallback.jsx";
 import { ErrorBoundary } from "react-error-boundary";
 import ErrorFallback from "./components/ErrorFallback";
 import { ReduxCounter } from "./features/counter/reduxCounter.jsx";
-import NumberList from "./hooks/UseMemoHook.jsx"
+import NumberList from "./hooks/UseMemoHook.jsx";
 import { MessageDisplay } from "./features/counter/messageDisplay.jsx";
 
 export default function Home() {
